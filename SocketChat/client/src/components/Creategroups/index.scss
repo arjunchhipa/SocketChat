@@ -1,0 +1,33 @@
+
+.create-groups-flex {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; // Adjust as needed
+    margin: auto;
+
+    label {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+    }
+
+    input {
+        outline: none;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: #cbd0e6;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #8690c5;
+        }
+    }
+}
